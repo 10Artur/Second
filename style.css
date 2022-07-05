@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    border-top: 1px solid gainsboro;
+    box-shadow: 0 0 10px 0 rgb(31, 30, 30);
+}
+
+.shad {
+    box-shadow: 1px 1px 10px 5px rgb(158, 153, 158, 0.623);
+}
+
+.big {
+    background: linear-gradient(180deg, rgba(224, 161, 10, 1) 0%, rgba(18, 6, 254, 0.4906337535014006) 100%);
+}
+
+.banner {
+    width: calc(100% - 50px);
+    background-color: rgb(244, 248, 250);
+}
+
+.eng {
+    font-size: large;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-shadow: 1px 9px 1.5px rgba(118, 205, 215, 0.7);
+    animation-duration: 3s;
+    animation-name: myy;
+}
+
+@keyframes myy {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.wh {
+    color: skyblue;
+    font-weight: lighter;
+}
+
+.pad {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: italic;
+}
+
+.imggg {
+    width: 100%;
+}
+
+.texttt {
+    color: skyblue;
+}
+
+.texttt:hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.bkkk {
+    background-color: rgb(244, 248, 250);
+}
+
+.ooone {
+    background-color: white;
+}
+
+.tttwo {
+    color: white;
+    background-color: skyblue;
+}
+
+.ittt {
+    font-style: italic;
+}
+
+.wwu {
+    color: lightskyblue;
+    font-weight: lighter;
+}
+
+.formm {
+    border: none;
+    border-bottom: 2px solid lightskyblue;
+    border-radius: 0;
+}
+
+.formmmm {
+    border-radius: 0;
+}
+
+.buttt {
+    padding: 10px;
+    border: 2px solid lightskyblue;
+    background-color: none;
+    width: 120px;
+    color: lightskyblue;
+}
+
+.myyy-t {
+    color: rgb(106, 106, 106);
+}
+
+.formm::placeholder,
+.formmmm::placeholder {
+    font-weight: lighter;
+}
+
+.formm:focus,
+.formmmm:focus {
+    background-color: lightskyblue;
+}
+
+.formm:focus::placeholder,
+.formmmm:focus::placeholder {
+    color: white;
+}
